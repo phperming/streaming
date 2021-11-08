@@ -20,4 +20,9 @@ type Comment struct {
 	Content string `json:"content"`
 }
 
+type SimpleSession struct {
+	Username string
+	TTL int64
+}
+
 

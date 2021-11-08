@@ -223,3 +223,4 @@ func ListComments(vid string,from,to int) ([]*defs.Comment,error) {
 	defer stmtOut.Close()
 	return res,nil
 }
+

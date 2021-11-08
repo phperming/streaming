@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3272bb0d-5bdb-4cd5-a362-edd239d4c2e8" name="Changes" comment="" />
+    <list default="true" id="3272bb0d-5bdb-4cd5-a362-edd239d4c2e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dbops/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dbops/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/defs/apidef.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/defs/apidef.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +18,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../software/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -36,24 +45,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="vedio_server" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GoPath\Learn\src\vedio_server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build vedio_server/web">
     <configuration name="go build vedio_server/api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="vedio_server" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,17 +70,28 @@
       <filePath value="$PROJECT_DIR$/api/main.go" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+    <configuration name="go build vedio_server/streamserver" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="vedio_server" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
+      <kind value="PACKAGE" />
+      <package value="vedio_server/streamserver" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <filePath value="$PROJECT_DIR$/streamserver/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build vedio_server/web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="vedio_server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="vedio_server/web" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/web/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build vedio_server/web" />
+        <item itemvalue="Go Build.go build vedio_server/streamserver" />
         <item itemvalue="Go Build.go build vedio_server/api" />
       </list>
     </recent_temporary>
